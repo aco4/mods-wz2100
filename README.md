@@ -1,6 +1,7 @@
 Mod           |Description                         |Modifies             |Download
 :-------------|:-----------------------------------|:--------------------|:------:
 NoReveal      | Unexplored terrain is hidden       | `setupgame.js`      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/NoReveal)
+FullReveal    | Entire map is visible              | `init.js`           | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/FullReveal)
 AA_start      | AA is researched for you           | `techlevel.js`      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/AA_start)
 MiniMap_on    | Always have minimap                | `init.js`           | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/MiniMap_on)
 VTOL_off      | VTOL factory disabled              | `structure.json`    | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/VTOL_off)
@@ -23,4 +24,4 @@ morePower     | 1000000 starting power             | `base.js`           | [⬇�
 # Compatibility
 - Mods work together if they modify different files
 - For example, NoReveal and AA_start are compatible
-- For example, MiniMap_on and noXP are not compatible
+- For example, FullReveal and MiniMap_on are not compatible
