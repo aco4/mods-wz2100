@@ -1,4 +1,4 @@
-Mod           |Description                         |Modifies             |Download
+Name          |Description                         |Modifies             |Download
 :-------------|:-----------------------------------|:--------------------|:------:
 NoReveal      | Unexplored terrain is hidden       | `setupgame.js`      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/NoReveal)
 FullReveal    | Entire map is visible              | `init.js`           | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/FullReveal)
@@ -9,6 +9,7 @@ BigHVC        | HVC is bigger, heavier, and slower | `weapons.json`      | [⬇�
 noXP          | Units do not gain experience       | `init.js`           | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/noXP)
 noDrums       | Oil drums do not spawn             | `oildrum.js`        | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/noDrums)
 morePower     | 1000000 starting power             | `base.js`           | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/morePower)
+noTerrain     | Terrain does not slow units        | `terraintable.json` | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/noTerrain)
 2xBuildSpeed  | Trucks build twice as fast         | `construction.json` | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/2xBuildSpeed)
 3xBuildSpeed  | Trucks build three times as fast   | `construction.json` | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/3xBuildSpeed)
 4xBuildSpeed  | Trucks build four times as fast    | `construction.json` | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/4xBuildSpeed)
@@ -22,6 +23,6 @@ morePower     | 1000000 starting power             | `base.js`           | [⬇�
 3. Restart Warzone 2100
 
 # Compatibility
-- Mods work together if they modify different files
-- For example, NoReveal and AA_start are compatible
-- For example, FullReveal and MiniMap_on are not compatible
+Mods work together if they modify different files. For example:
+- NoReveal and AA_start are compatible
+- FullReveal and MiniMap_on are not compatible (both modify `init.js`)
