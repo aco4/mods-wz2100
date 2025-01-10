@@ -10,6 +10,7 @@ noXP          | Units do not gain experience       | `init.js`           | [⬇�
 noDrums       | Oil drums do not spawn             | `oildrum.js`        | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/noDrums)
 morePower     | 1000000 starting power             | `base.js`           | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/morePower)
 noTerrain     | Terrain does not slow units        | `terraintable.json` | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/noTerrain)
+U-Walls       | Walls are unbreakable              | `structure.json`    | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/U-Walls)
 2xBuildSpeed  | Trucks build twice as fast         | `construction.json` | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/2xBuildSpeed)
 3xBuildSpeed  | Trucks build three times as fast   | `construction.json` | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/3xBuildSpeed)
 4xBuildSpeed  | Trucks build four times as fast    | `construction.json` | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/4xBuildSpeed)
