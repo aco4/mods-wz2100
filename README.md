@@ -8,7 +8,7 @@ VTOL_off      | VTOL factory disabled              | `structure.json`    | [⬇�
 BigHVC        | HVC is bigger, heavier, and slower | `weapons.json`      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/BigHVC)
 noXP          | Units do not gain experience       | `init.js`           | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/noXP)
 noDrums       | Oil drums do not spawn             | `oildrum.js`        | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/noDrums)
-morePower     | 1000000 starting power             | `base.js`           | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/morePower)
+maxPower      | 1000000 starting power             | `base.js`           | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/maxPower)
 noTerrain     | Terrain does not slow units        | `terraintable.json` | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/noTerrain)
 U-Walls       | Walls are unbreakable              | `structure.json`    | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/U-Walls)
 2xBuildSpeed  | Trucks build twice as fast         | `construction.json` | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/2xBuildSpeed)
