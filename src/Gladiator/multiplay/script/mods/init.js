@@ -18,11 +18,9 @@ function gladiator_eventStartLevel() {
     receiveAllEvents(true);
 
     setMissionTime(4*60); // 4 minutes
-    queue("countdown", 4*60*1000 - 10);
 
     setScrollLimits(x1, y1, x2, y2);
 
-    // setNoGoArea(128*(125-5), 128*(125-5), 128*(125+5), 128*(125+5), 0);
     setNoGoArea(125-5, 125-5, 125+5, 125+5, 0);
 
     // Let players see the whole map
@@ -72,8 +70,6 @@ function gladiator_eventMissionTimeout() {
 
 function gladiator_eventChat(from, to, message) {
     receiveAllEvents(true);
-
-    console(".");
 
     if (getMissionTime() == -1) { // voting not allowed after walls break
         return;
@@ -168,10 +164,6 @@ function info() {
     console(" ");
     console(" ");
     playSound("beep9.ogg");
-}
-
-function countdown() {
-    playSound("10to1.ogg");
 }
 
 function out_of_bounds(obj) {
