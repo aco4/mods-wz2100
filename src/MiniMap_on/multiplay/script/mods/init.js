@@ -1,10 +1,9 @@
 namespace("minimapon_");
 
 function minimapon_eventStartLevel() {
-    loop();
+    setTimer("loop", 500);
 }
 
 function loop() {
-    queue("loop", 500);
     setMiniMap(true);
 }
