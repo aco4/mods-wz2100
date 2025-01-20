@@ -11,6 +11,7 @@ noDrums       | Oil drums do not spawn             | `oildrum.js`        | [⬇�
 maxPower      | 1000000 starting power             | `base.js`           | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/maxPower)
 noTerrain     | Terrain does not slow units        | `terraintable.json` | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/noTerrain)
 U-Walls       | Walls are unbreakable              | `structure.json`    | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/U-Walls)
+U-City        | City buildings are unbreakable     | `features.json`     | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/U-City)
 2xBuildSpeed  | Trucks build twice as fast         | `construction.json` | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/2xBuildSpeed)
 3xBuildSpeed  | Trucks build three times as fast   | `construction.json` | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/3xBuildSpeed)
 4xBuildSpeed  | Trucks build four times as fast    | `construction.json` | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/4xBuildSpeed)
