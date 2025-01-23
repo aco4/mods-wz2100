@@ -1,0 +1,7 @@
+{
+	"AI": {
+		"js": "noAI.js",
+		"name": "noAI",
+		"tip": "An AI that does nothing."
+	}
+}
