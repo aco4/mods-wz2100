@@ -12,6 +12,7 @@ noAI          | Bot that does nothing              |                     | [⬇�
 maxPower      | 1000000 starting power             | `base.js`           | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/maxPower)
 Rainbow       | Players get changing rainbow color | `init.js`           | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/Rainbow)
 CampaignColor | AI players get campaign color      | `init.js`           | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/CampaignColor)
+TeamColor     | Entire team is the same color      | `init.js`           | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/TeamColor)
 noTerrain     | Terrain does not slow units        | `terraintable.json` | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/noTerrain)
 U-Walls       | Walls are unbreakable              | `structure.json`    | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/U-Walls)
 U-City        | City buildings are unbreakable     | `features.json`     | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/U-City)
