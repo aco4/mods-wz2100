@@ -2,6 +2,8 @@ Name           |Description                         |Modifies             |Downl
 :--------------|:-----------------------------------|:--------------------|:------:
 NoReveal       | Unexplored terrain is hidden       | `setupgame.js`      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/NoReveal)
 FullReveal     | Entire map is visible              | `init.js`           | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/FullReveal)
+UrbanSky       | Improved Urban skybox              | texpages            | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/UrbanSky)
+BlackFog       | Fog is black                       | `init.js`           | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/BlackFog)
 AA_start       | AA is researched for you           | `techlevel.js`      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/AA_start)
 MiniMap_on     | Always have minimap                | `init.js`           | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/MiniMap_on)
 VTOL_off       | VTOL factory disabled              | `structure.json`    | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/VTOL_off)
