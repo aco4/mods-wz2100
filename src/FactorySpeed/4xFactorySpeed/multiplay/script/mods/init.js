@@ -1,22 +1,17 @@
-namespace("SuperFactory_");
+namespace("FactorySpeed_");
 
-const REQ_ID = 53414;
-const NUM_DUPLICATES = 4;
+const NUM_DUPLICATES = 3;
 
-function SuperFactory_eventDroidBuilt(droid, structure) {
+function FactorySpeed_eventDroidBuilt(droid, structure) {
     // If not built from a factory
     if (!structure) {
         return;
     }
 
-    syncRequest(REQ_ID, null, null, droid);
+    syncRequest(null, null, null, droid);
 }
 
-function SuperFactory_eventSyncRequest(from, req_id, x, y, obj_id, obj_id2) {
-    if (req_id !== REQ_ID) {
-        return;
-    }
-
+function FactorySpeed_eventSyncRequest(from, req_id, x, y, obj_id, obj_id2) {
     const turrets = (() => {
         switch (obj_id.droidType) {
             case DROID_WEAPON:    return obj_id.weapons.map(w => w.name);
@@ -31,12 +26,7 @@ function SuperFactory_eventSyncRequest(from, req_id, x, y, obj_id, obj_id2) {
         return;
     }
 
-    const count = (() => {
-        const droidType = obj_id.droidType === DROID_CONSTRUCT ? DROID_CONSTRUCT : undefined;
-        return Math.min(NUM_DUPLICATES, getDroidLimit(selectedPlayer, droidType) - countDroid(droidType ?? DROID_ANY, selectedPlayer));
-    })();
-
-    for (let i = 0; i < count; i++) {
+    for (let i = 0; i < NUM_DUPLICATES; i++) {
         addDroid(obj_id.player, obj_id.x, obj_id.y, obj_id.name, obj_id.body, obj_id.propulsion, "", "", ...turrets);
     }
 }

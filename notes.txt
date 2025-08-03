@@ -1,0 +1,16 @@
+Factory speed mod code snippet (broken)
+
+    // TODO fix this. causes desync when limit is reached
+    // // How many duplicates to create without exceeding droid limit
+    // const count = (() => {
+    //     const droidType = obj_id.droidType === DROID_CONSTRUCT ? DROID_CONSTRUCT : undefined;
+    //     const max = getDroidLimit(obj_id.player, droidType)
+    //     const num = countDroid(droidType ?? DROID_ANY, obj_id.player)
+    //     const diff = max - num;
+    //     if (diff <= 4) {
+    //         console(max);
+    //         console(num);
+    //         console(diff);
+    //     }
+    //     return Math.min(NUM_DUPLICATES, diff);
+    // })();
