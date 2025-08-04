@@ -6,7 +6,7 @@ UrbanSky       | Improved Urban skybox              | texpages            | [⬇
 BlackFog       | Fog is black                       | `init.js`           | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/BlackFog)
 AA_start       | AA is researched for you           | `techlevel.js`      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/AA_start)
 MiniMap_on     | Always have minimap                | `init.js`           | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/MiniMap_on)
-VTOL_off       | VTOL factory disabled              | `structure.json`    | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/VTOL_off)
+VTOLoff        | VTOL factory limit = 0             | `init.js`           | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/VTOLoff)
 BigHVC         | HVC is bigger, heavier, and slower | `weapons.json`      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/BigHVC)
 noXP           | Units do not gain experience       | `init.js`           | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/noXP)
 noDrums        | Oil drums do not spawn             | `oildrum.js`        | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/noDrums)
@@ -35,12 +35,14 @@ U-City         | City buildings are unbreakable     | `features.json`     | [⬇
 250UnitsLimit  | 250 maximum units                  | `droidlimits.js`    | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/250UnitsLimit)
 300UnitsLimit  | 300 maximum units                  | `droidlimits.js`    | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/300UnitsLimit)
 
-# Instructions
-1. Download the mod
-2. Put it in `Warzone 2100/mods/4.5.5/autoload`
-3. Restart Warzone 2100
+# Install
+1. Start Warzone 2100
+2. Click `Options`
+3. Click `Open Configuration Directory` (bottom)
+4. Put the mod in `📁mods/4.5.5/autoload/`
+5. Restart Warzone 2100
 
 # Compatibility
 Mods work together if they modify different files. For example:
 - NoReveal and AA_start are compatible
-- FullReveal and MiniMap_on are not compatible (both modify `init.js`)
+- FullReveal and VTOLoff are not compatible (both modify `init.js`)
