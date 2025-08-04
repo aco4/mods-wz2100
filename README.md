@@ -12,7 +12,6 @@ noXP           | Units do not gain experience       | `init.js`           | [⬇
 noDrums        | Oil drums do not spawn             | `oildrum.js`        | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/noDrums)
 noAI           | Bot that does nothing              |                     | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/noAI)
 maxPower       | 1000000 starting power             | `base.js`           | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/maxPower)
-SuperFactory   | Factory makes 5 units at once      | `init.js`           | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/SuperFactory)
 Rainbow        | Players get changing rainbow color | `init.js`           | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/Rainbow)
 Campaign       |                                    | Multiple files      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/Campaign)
 CampaignColor  | AI players get campaign color      | `init.js`           | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/CampaignColor)
@@ -56,5 +55,5 @@ U-City         | City buildings are unbreakable     | `features.json`     | [⬇
 
 # Compatibility
 Mods work together if they modify different files. For example:
-- NoReveal and AA_start are compatible
+- NoReveal and maxPower are compatible (`setupgame.js` and `base.js`)
 - FullReveal and VTOLoff are not compatible (both modify `init.js`)
