@@ -28,7 +28,6 @@ U-City         | City buildings are unbreakable     | `features.json`     | [⬇
 3xRange        | Everything has 3x more range       | `sensor`, `weapons` | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/3xRange)
 50UnitsLimit   | 50 maximum units                   | `droidlimits.js`    | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/50UnitsLimit)
 100UnitsLimit  | 100 maximum units                  | `droidlimits.js`    | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/100UnitsLimit)
-150UnitsLimit  | 150 maximum units                  | `droidlimits.js`    | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/150UnitsLimit)
 200UnitsLimit  | 200 maximum units                  | `droidlimits.js`    | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/200UnitsLimit)
 250UnitsLimit  | 250 maximum units                  | `droidlimits.js`    | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/250UnitsLimit)
 300UnitsLimit  | 300 maximum units                  | `droidlimits.js`    | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/300UnitsLimit)
