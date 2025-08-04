@@ -10,6 +10,7 @@ VTOLoff        | VTOL factory limit = 0             | `init.js`           | [⬇
 BigHVC         | HVC is bigger, heavier, and slower | `weapons.json`      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/BigHVC)
 noXP           | Units do not gain experience       | `init.js`           | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/noXP)
 noDrums        | Oil drums do not spawn             | `oildrum.js`        | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/noDrums)
+moreDrums      | 64x more oil drums will spawn      | `oildrum.js`        | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/moreDrums)
 noAI           | Bot that does nothing              |                     | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/noAI)
 maxPower       | 1000000 starting power             | `base.js`           | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/maxPower)
 Rainbow        | Players get changing rainbow color | `init.js`           | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/Rainbow)
