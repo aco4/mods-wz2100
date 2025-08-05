@@ -2,27 +2,19 @@ namespace("FactoryOutput_");
 
 const FACTORY_OUTPUT = %%MODIFIER%%;
 
+// Map the original droid to its duplicates
+const droidMapping = {};
+
 function FactoryOutput_eventDroidBuilt(droid, structure) {
     // If not built from a factory
     if (!structure) {
         return;
     }
 
-    // Although eventDroidBuilt may receive events from all players, only the
-    // player who owns the droid should emit the syncRequest. Unless the owner
-    // player is a bot, in which case the host should handle it.
-    if (droid.player !== me && playerData[droid.player].isHuman) {
-        return;
-    }
-
-    // Emit a sync request to every player (including self)
-    syncRequest(null, null, null, droid);
+    duplicateDroid(droid, FACTORY_OUTPUT - 1);
 }
 
-function FactoryOutput_eventSyncRequest(from, req_id, x, y, obj_id, obj_id2) {
-    duplicateDroid(obj_id, FACTORY_OUTPUT - 1);
-}
-
+// droid : the droid to duplicate
 // count : how many duplicates to create
 function duplicateDroid(droid, count) {
     const turrets = getTurrets(droid);
@@ -30,9 +22,18 @@ function duplicateDroid(droid, count) {
         return;
     }
 
+    droidMapping[droid.id] = [];
+
+    hackNetOff();
     for (let i = 0; i < count; i++) {
-        addDroid(droid.player, droid.x, droid.y, droid.name, droid.body, droid.propulsion, "", "", ...turrets);
+        const newDroid = addDroid(droid.player, droid.x, droid.y, droid.name, droid.body, droid.propulsion, "", "", ...turrets);
+        if (newDroid) {
+            droidMapping[droid.id].push(newDroid);
+        }
     }
+    hackNetOn();
+
+    queue("goToDeliveryPoint", 400, droid);
 }
 
 // Identify a droid's turret, if possible
@@ -47,3 +48,27 @@ function getTurrets(droid) {
         default:              return null;
     }
 }
+
+// Order a droid's duplicates to go to the delivery point
+// BUG: this doesn't work for bots. For some reason, the `droid` parameter is lost
+function goToDeliveryPoint(droid) {
+    if (!droid) {
+        return;
+    }
+
+    const destination = getDroidPath(droid).at(-1);
+    if (!destination) {
+        return;
+    }
+
+    const newDroids = droidMapping[droid.id];
+    if (!newDroids) {
+        return;
+    }
+
+    for (const newDroid of newDroids) {
+        orderDroidLoc(newDroid, DORDER_MOVE, destination.x, destination.y);
+    }
+
+    delete droidMapping[droid.id];
+};
