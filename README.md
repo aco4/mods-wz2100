@@ -1,5 +1,5 @@
 Name           |Description                         |Modifies             |Last update|Download
-:--------------|:-----------------------------------|:--------------------|-----------|:------:
+:--------------|:-----------------------------------|:--------------------|:---------:|:------:
 NoReveal       | Unexplored terrain is hidden       | `setupgame.js`      |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/NoReveal)
 FullReveal     | Entire map is visible              | `init.js`           |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/FullReveal)
 UrbanSky       | Improved Urban skybox              | texpages            |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/UrbanSky)
@@ -14,6 +14,7 @@ moreDrums      | 64x more oil drums will spawn      | `oildrum.js`        |4.5.5
 noAI           | Bot that does nothing              |                     |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/noAI)
 maxPower       | 1000000 starting power             | `base.js`           |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/maxPower)
 Rainbow        | Players get changing rainbow color | `init.js`           |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/Rainbow)
+Dropship       | Reinforcements come every minute   | `init.js`           |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/Dropship)
 Campaign       |                                    | Multiple files      |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/Campaign)
 CampaignColor  | AI players get campaign color      | `init.js`           |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/CampaignColor)
 TeamColor      | Entire team is the same color      | `init.js`           |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/TeamColor)
