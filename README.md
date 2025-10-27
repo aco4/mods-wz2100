@@ -2,6 +2,7 @@ Name           |Description                         |Modifies             |Last 
 :--------------|:-----------------------------------|:--------------------|:---------:|:------:
 NoReveal       | Unexplored terrain is hidden       | `setupgame.js`      |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/NoReveal)
 FullReveal     | Entire map is visible              | `init.js`           |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/FullReveal)
+OilVision      | Oil derricks are always visible    | `init.js`           |4.6.1      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/OilVision)
 UrbanSky       | Improved Urban skybox              | texpages            |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/UrbanSky)
 BlackFog       | Fog is black                       | `init.js`           |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/BlackFog)
 AA_start       | AA is researched for you           | `techlevel.js`      |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/AA_start)
