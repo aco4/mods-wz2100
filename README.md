@@ -12,7 +12,7 @@ BigHVC         | HVC is bigger, heavier, and slower | `weapons.json`      |4.5.5
 silenceGroup   | No audio when selecting group      | audio               |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/silenceGroup)
 silenceCommand | No command turret laser audio      | audio               |4.6.1      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/silenceCommand)
 noXP           | Units do not gain experience       | `init.js`           |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/noXP)
-noDrums        | Oil drums do not spawn             | `oildrum.js`        |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/noDrums)
+noDrums        | Oil drums do not spawn             | `oildrum.js`        |4.6.1      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/noDrums)
 moreDrums      | 64x more oil drums will spawn      | `oildrum.js`        |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/moreDrums)
 drumBOOM       | Oil drums explode when picked up   | `oildrum.js`        |4.6.1      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/drumBOOM)
 noAI           | Bot that does nothing              |                     |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/noAI)

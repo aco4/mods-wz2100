@@ -1,7 +1,1 @@
-function placeOilDrum() {}
-
-function eventPickup() {}
-
-function oilDrumInit() {
-	oilDrumData.maxOilDrums = 0;
-}
+function oilDrumInit() {}
