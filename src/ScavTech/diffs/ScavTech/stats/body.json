@@ -1,0 +1,152 @@
+{
+	"BusBody": {
+		"designable": 1,
+		"class": "Droids",
+		"propulsionExtraModels": {
+			"HalfTrack": {
+				"left": "prhhtr3.pie"
+			},
+			"Helicopter": {
+				"left": "prhheli4.pie",
+				"still": "heavyheli_rotor_stationary.pie",
+				"moving": "fxheli12.pie"
+			},
+			"Naval": {
+				"left": "prhnaval1.pie"
+			},
+			"V-Tol": {
+				"left": "prhvtl4.pie",
+				"moving": "fxvtl12.pie"
+			},
+			"hover01": {
+				"left": "prhhov1.pie"
+			},
+			"tracked01": {
+				"left": "prhtrk3.pie"
+			},
+			"wheeled01": {
+				"left": "prhwhl1.pie"
+			}
+		}
+	},
+	"FireBody": {
+		"designable": 1,
+		"class": "Droids",
+		"propulsionExtraModels": {
+			"HalfTrack": {
+				"left": "prhhtr3.pie"
+			},
+			"Helicopter": {
+				"left": "prhheli4.pie",
+				"still": "heavyheli_rotor_stationary.pie",
+				"moving": "fxheli12.pie"
+			},
+			"Naval": {
+				"left": "prhnaval1.pie"
+			},
+			"V-Tol": {
+				"left": "prhvtl4.pie",
+				"moving": "fxvtl12.pie"
+			},
+			"hover01": {
+				"left": "prhhov1.pie"
+			},
+			"tracked01": {
+				"left": "prhtrk3.pie"
+			},
+			"wheeled01": {
+				"left": "prhwhl1.pie"
+			}
+		}
+	},
+	"B2JeepBody": {
+		"designable": 1,
+		"class": "Droids",
+		"propulsionExtraModels": {
+			"HalfTrack": {
+				"left": "prlhtr1.pie"
+			},
+			"Helicopter": {
+				"left": "prlheli3.pie",
+				"still": "mediumheli_rotor_stationary.pie",
+				"moving": "fxheli04.pie"
+			},
+			"Naval": {
+				"left": "prhnaval1.pie"
+			},
+			"V-Tol": {
+				"left": "prlvtl3.pie",
+				"moving": "fxvtl04.pie"
+			},
+			"hover01": {
+				"left": "prlhov1.pie"
+			},
+			"tracked01": {
+				"left": "prltrk1.pie"
+			},
+			"wheeled01": {
+				"left": "prlwhl1.pie"
+			}
+		}
+	},
+	"B4body-sml-trike01": {
+		"designable": 1,
+		"class": "Droids",
+		"propulsionExtraModels": {
+			"HalfTrack": {
+				"left": "prlhtr1.pie"
+			},
+			"Helicopter": {
+				"left": "prlheli3.pie",
+				"still": "mediumheli_rotor_stationary.pie",
+				"moving": "fxheli04.pie"
+			},
+			"Naval": {
+				"left": "prhnaval1.pie"
+			},
+			"V-Tol": {
+				"left": "prlvtl3.pie",
+				"moving": "fxvtl04.pie"
+			},
+			"hover01": {
+				"left": "prlhov1.pie"
+			},
+			"tracked01": {
+				"left": "prltrk1.pie"
+			},
+			"wheeled01": {
+				"left": "prlwhl1.pie"
+			}
+		}
+	},
+	"B3body-sml-buggy01": {
+		"designable": 1,
+		"class": "Droids",
+		"propulsionExtraModels": {
+			"HalfTrack": {
+				"left": "prlhtr1.pie"
+			},
+			"Helicopter": {
+				"left": "prlheli3.pie",
+				"still": "mediumheli_rotor_stationary.pie",
+				"moving": "fxheli04.pie"
+			},
+			"Naval": {
+				"left": "prhnaval1.pie"
+			},
+			"V-Tol": {
+				"left": "prlvtl3.pie",
+				"moving": "fxvtl04.pie"
+			},
+			"hover01": {
+				"left": "prlhov1.pie"
+			},
+			"tracked01": {
+				"left": "prltrk1.pie"
+			},
+			"wheeled01": {
+				"left": "prlwhl1.pie"
+			}
+		}
+	}
+}

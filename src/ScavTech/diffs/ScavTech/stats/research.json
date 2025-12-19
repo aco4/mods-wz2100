@@ -1,0 +1,74 @@
+{
+	"R-Vehicle-Body15": {
+		"iconID": "IMAGE_RES_DROIDTECH",
+		"id": "R-Vehicle-Body15",
+		"msgName": "RES_V_B01",
+		"name": "Scavenger Body - Bus",
+		"researchPoints": 600,
+		"researchPower": 18,
+		"resultComponents": [
+			"BusBody"
+		],
+		"statID": "BusBody"
+	},
+	"R-Vehicle-Body16": {
+		"iconID": "IMAGE_RES_DROIDTECH",
+		"id": "R-Vehicle-Body16",
+		"msgName": "RES_V_B01",
+		"name": "Scavenger Body - Fire Engine",
+		"researchPoints": 600,
+		"researchPower": 18,
+		"resultComponents": [
+			"FireBody"
+		],
+		"statID": "FireBody"
+	},
+	"R-Vehicle-Body17": {
+		"iconID": "IMAGE_RES_DROIDTECH",
+		"id": "R-Vehicle-Body17",
+		"msgName": "RES_V_B01",
+		"name": "Scavenger Body - Jeep",
+		"researchPoints": 600,
+		"researchPower": 18,
+		"resultComponents": [
+			"B2JeepBody"
+		],
+		"statID": "B2JeepBody"
+	},
+	"R-Vehicle-Body18": {
+		"iconID": "IMAGE_RES_DROIDTECH",
+		"id": "R-Vehicle-Body18",
+		"msgName": "RES_V_B01",
+		"name": "Scavenger Body - Trike",
+		"researchPoints": 600,
+		"researchPower": 18,
+		"resultComponents": [
+			"B4body-sml-trike01"
+		],
+		"statID": "B4body-sml-trike01"
+	},
+	"R-Vehicle-Body19": {
+		"iconID": "IMAGE_RES_DROIDTECH",
+		"id": "R-Vehicle-Body19",
+		"msgName": "RES_V_B01",
+		"name": "Scavenger Body - Buggy",
+		"researchPoints": 600,
+		"researchPower": 18,
+		"resultComponents": [
+			"B3body-sml-buggy01"
+		],
+		"statID": "B3body-sml-buggy01"
+	},
+	"R-Vehicle-Prop-BaBaProp": {
+		"iconID": "IMAGE_RES_DROIDTECH",
+		"id": "R-Vehicle-Prop-BaBaProp",
+		"msgName": "RES_V_P_W1",
+		"name": "Scavenger Propulsion",
+		"researchPoints": 1200,
+		"researchPower": 37,
+		"resultComponents": [
+			"BaBaProp"
+		],
+		"statID": "BaBaProp"
+	}
+}

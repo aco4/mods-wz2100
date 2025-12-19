@@ -1,0 +1,10 @@
+{
+	"BaBaLegs": {
+		"designable": 1
+	},
+	"BaBaProp": {
+		"designable": 1,
+		"model": "iceng.pie",
+		"name": "Scavenger"
+	}
+}
