@@ -17,6 +17,7 @@ noDrums        | Oil drums do not spawn             | `oildrum.js`        |4.6.1
 moreDrums      | 64x more oil drums will spawn      | `oildrum.js`        |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/moreDrums)
 drumBOOM       | Oil drums explode when picked up   | `oildrum.js`        |4.6.1      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/drumBOOM)
 noAI           | Bot that does nothing              |                     |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/noAI)
+BugFix         | Fix several bugs                   | `init.js`           |4.6.2      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/BugFix)
 maxPower       | 1000000 starting power             | `base.js`           |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/maxPower)
 Rainbow        | Players get changing rainbow color | `init.js`           |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/Rainbow)
 Dropship       | Reinforcements come every minute   | `init.js`           |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/Dropship)
