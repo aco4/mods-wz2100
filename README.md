@@ -27,6 +27,10 @@ TeamColor      | Entire team is the same color      | `init.js`           |4.5.5
 noTerrain      | Terrain does not slow units        | `terraintable.json` |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/noTerrain)
 U-Walls        | Walls are unbreakable              | `structure.json`    |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/U-Walls)
 U-City         | City buildings are unbreakable     | `features.json`     |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/U-City)
+1FactoryLimit  | Only 1 of each factory             | `structurelimits.js`|4.6.2      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/1FactoryLimit)
+2FactoryLimit  | Only 2 of each factory             | `structurelimits.js`|4.6.2      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/2FactoryLimit)
+3FactoryLimit  | Only 3 of each factory             | `structurelimits.js`|4.6.2      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/3FactoryLimit)
+4FactoryLimit  | Only 4 of each factory             | `structurelimits.js`|4.6.2      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/4FactoryLimit)
 2xBuildSpeed   | Trucks build two times as fast     | `construction.json` |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/2xBuildSpeed)
 3xBuildSpeed   | Trucks build three times as fast   | `construction.json` |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/3xBuildSpeed)
 4xBuildSpeed   | Trucks build four times as fast    | `construction.json` |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/4xBuildSpeed)
@@ -52,12 +56,21 @@ U-City         | City buildings are unbreakable     | `features.json`     |4.5.5
 8xFactoryOutput  | Factory makes 8 units each time  | `init.js`           |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/8xFactoryOutput)
 9xFactoryOutput  | Factory makes 9 units each time  | `init.js`           |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/9xFactoryOutput)
 10xFactoryOutput | Factory makes 10 units each time | `init.js`           |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/10xFactoryOutput)
+2xFactorySpeed  | Factory makes units 2x faster     | `init.js`           |4.6.2      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/2xFactorySpeed)
+3xFactorySpeed  | Factory makes units 3x faster     | `init.js`           |4.6.2      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/3xFactorySpeed)
+4xFactorySpeed  | Factory makes units 4x faster     | `init.js`           |4.6.2      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/4xFactorySpeed)
+5xFactorySpeed  | Factory makes units 5x faster     | `init.js`           |4.6.2      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/5xFactorySpeed)
+6xFactorySpeed  | Factory makes units 6x faster     | `init.js`           |4.6.2      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/6xFactorySpeed)
+7xFactorySpeed  | Factory makes units 7x faster     | `init.js`           |4.6.2      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/7xFactorySpeed)
+8xFactorySpeed  | Factory makes units 8x faster     | `init.js`           |4.6.2      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/8xFactorySpeed)
+9xFactorySpeed  | Factory makes units 9x faster     | `init.js`           |4.6.2      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/9xFactorySpeed)
+10xFactorySpeed | Factory makes units 10x faster    | `init.js`           |4.6.2      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/10xFactorySpeed)
 
 # Install
 1. Start Warzone 2100
 2. Click `Options`
 3. Click `Open Configuration Directory` (bottom)
-4. Put the mod in `📁mods/4.5.5/autoload/`
+4. Put the mod in `📁mods/4.6.2/autoload/`
 5. Restart Warzone 2100
 
 # Compatibility
