@@ -9,7 +9,7 @@ extra_path = os.path.join(base_dir, 'nFactoryLimit', 'multiplay', 'script', 'rul
 with open(template_path, 'r') as f:
     template = f.read()
 
-for i in [1, 2, 3, 4]:
+for i in [1, 2, 3, 4, 6, 7, 8, 9, 10]:
     modifier = str(i)
     replaced = template.replace('%%MODIFIER%%', modifier)
 
