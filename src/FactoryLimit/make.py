@@ -3,6 +3,7 @@ import zipfile
 
 base_dir = os.path.dirname(__file__)
 template_path = os.path.join(base_dir, 'nFactoryLimit', 'multiplay', 'script', 'rules', 'setup', 'structurelimits.js')
+extra_path = os.path.join(base_dir, 'nFactoryLimit', 'multiplay', 'script', 'rules', 'events', 'gameinit.js')
 
 # Read the template content
 with open(template_path, 'r') as f:
@@ -19,6 +20,6 @@ for i in [1, 2, 3, 4]:
     # Create the zip archive (with no .zip extension)
     with zipfile.ZipFile(archive_path, 'w', zipfile.ZIP_DEFLATED) as zipf:
         zipf.writestr('multiplay/script/rules/setup/structurelimits.js', replaced)
-        zipf.writestr('multiplay/script/rules/events/gameinit.js', replaced)
+        zipf.write(extra_path, 'multiplay/script/rules/events/gameinit.js')
 
     print(f'Created mod: {archive_path}')
