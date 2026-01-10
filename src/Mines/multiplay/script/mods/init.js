@@ -43,5 +43,7 @@ function tickMines()
 
 function enemyNearby(x, y, player)
 {
-	return enumRange(x, y, 1, ALL_PLAYERS, false).some(object => !allianceExistsBetween(player, object.player));
+	return enumRange(x, y, 1, ALL_PLAYERS, false).some(object =>
+		object.type !== FEATURE && !allianceExistsBetween(player, object.player)
+	);
 }
