@@ -1,0 +1,17 @@
+{
+	"R-Defense-ExplosiveMine": {
+		"iconID": "IMAGE_RES_DEFENCE",
+		"id": "R-Defense-ExplosiveMine",
+		"msgName": "RES_EMP_ExplosiveMine",
+		"name": "Explosive Mine",
+		"requiredResearch": [
+			"R-Wpn-Mortar01Lt"
+		],
+		"researchPoints": 600,
+		"researchPower": 18,
+		"resultStructures": [
+			"ExplosiveMine"
+		],
+		"statID": "ExplosiveMine"
+	}
+}

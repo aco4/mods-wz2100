@@ -1,0 +1,23 @@
+{
+	"ExplosiveMine": {
+		"armour": 10,
+		"breadth": 1,
+		"buildPoints": 300,
+		"buildPower": 100,
+		"height": 1,
+		"hitpoints": 300,
+		"id": "ExplosiveMine",
+		"name": "Explosive Mine",
+		"rearmPoints": 1,
+		"repairPoints": 1,
+		"resistance": 150,
+		"sensorID": "DefaultSensor1Mk1",
+		"strength": "MEDIUM",
+		"structureModel": [
+			"explosivemine.pie"
+		],
+		"thermal": 10,
+		"type": "REARM PAD",
+		"width": 1
+	}
+}
