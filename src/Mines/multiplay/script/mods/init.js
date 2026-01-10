@@ -1,4 +1,4 @@
-const GROUP_MINES = 0;
+const MINE_WEAPON = "Mortar2Mk1"; // Bombard
 const MINE_STRENGTH = 8;
 var mines = [];
 
@@ -28,8 +28,7 @@ function tickMines()
 		{
 			for (let i = 0; i < MINE_STRENGTH; i++)
 			{
-				// Bombard
-				fireWeaponAtLoc("Mortar2Mk1", mine.x, mine.y, mine.player, true);
+				fireWeaponAtLoc(MINE_WEAPON, mine.x, mine.y, mine.player, true);
 			}
 		}
 		else
