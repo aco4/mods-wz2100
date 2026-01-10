@@ -1,0 +1,32 @@
+{
+	"R-Struc-NuclearReactor": {
+		"iconID": "IMAGE_RES_STRUCTURETECH",
+		"id": "R-Struc-NuclearReactor",
+		"msgName": "RES_ST_NuclearReactor",
+		"name": "Nuclear Reactor",
+		"requiredResearch": [
+			"R-Struc-Research-Upgrade05"
+		],
+		"researchPoints": 8000,
+		"researchPower": 450,
+		"resultStructures": [
+			"NuclearReactor"
+		],
+		"statID": "NuclearReactor"
+	},
+	"R-Struc-CoolingTower": {
+		"iconID": "IMAGE_RES_STRUCTURETECH",
+		"id": "R-Struc-CoolingTower",
+		"msgName": "RES_ST_CoolingTower",
+		"name": "Nuclear Cooling Tower",
+		"requiredResearch": [
+			"R-Struc-Research-Upgrade05"
+		],
+		"researchPoints": 8000,
+		"researchPower": 450,
+		"resultStructures": [
+			"CoolingTower"
+		],
+		"statID": "CoolingTower"
+	}
+}
