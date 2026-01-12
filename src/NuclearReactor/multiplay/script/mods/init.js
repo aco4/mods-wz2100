@@ -2,10 +2,11 @@ const GROUP_REACTORS = 0;
 
 // 6x6 square around the reactor is checked for towers
 const TOWER_RADIUS = 3;
-const EXPLOSION_CHANCE = 10;
+const EXPLOSION_CHANCE = 20; // higher = less likely
 const REACTOR_POWER_MODIFIER_PERCENT = 5;
 
 var burners = [];
+var suppress = new Set();
 
 function eventStartLevel()
 {
@@ -24,6 +25,13 @@ function eventStructureBuilt(structure, droid)
 	}
 }
 
+// This event fires before eventDestroyed
+function eventObjectRecycled(object)
+{
+	suppress.add(object.id); // do not explode demolished reactors
+}
+
+// This event fires after eventObjectRecycled
 function eventDestroyed(object)
 {
 	if (object.name === "*NuclearReactor*" && object.status === BUILT)
@@ -31,7 +39,15 @@ function eventDestroyed(object)
 		hackNetOff();
 		updatePowerModifier(object.player);
 		hackNetOn();
-		burners.push([object.x, object.y]);
+		if (suppress.has(object.id))
+		{
+			suppress.delete(object.id);
+		}
+		else
+		{
+			fireWeaponAtLoc("Bomb5-VTOL-Plasmite", object.x - 1 + syncRandom(2), object.y - 1 + syncRandom(2), scavengerPlayer, true);
+			burners.push([object.x, object.y]);
+		}
 	}
 }
 
@@ -39,6 +55,7 @@ function eventSelectionChanged(objects)
 {
 	if (objects.some(object => object.name === "*NuclearReactor*" && object.player === selectedPlayer))
 	{
+		playSound("pcv654.ogg"); // nuclear reactor
 		const reactors = countStruct("NuclearReactor", selectedPlayer);
 		if (reactors === 1)
 		{
@@ -64,7 +81,8 @@ function tickReactors()
 				towers++;
 			}
 		});
-		if (syncRandom(EXPLOSION_CHANCE**towers) === 0)
+
+		if (syncRandom(towers * EXPLOSION_CHANCE) === 0)
 		{
 			fire(reactor.x, reactor.y);
 		}
@@ -105,7 +123,6 @@ function fire(x, y)
 	fireWeaponAtLoc("NuclearReactorFlame", x+0, y+0, scavengerPlayer, true);
 	fireWeaponAtLoc("NuclearReactorFlame", x - 2 + syncRandom(4), y - 2 + syncRandom(4), scavengerPlayer, true);
 }
-
 
 function getPowerModifier(player)
 {
