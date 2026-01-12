@@ -70,5 +70,96 @@
 			"BaBaProp"
 		],
 		"statID": "BaBaProp"
+	},
+	"R-Defense-BaBaBunker": {
+		"iconID": "IMAGE_RES_DEFENCE",
+		"id": "R-Defense-BaBaBunker",
+		"msgName": "RES_DF_P1",
+		"name": "Scavenger Bunker",
+		"requiredResearch": [
+			"R-Defense-HardcreteWall",
+			"R-Wpn-MG-Damage01"
+		],
+		"researchPoints": 600,
+		"researchPower": 18,
+		"resultStructures": [
+			"A0BaBaBunker"
+		],
+		"statID": "A0BaBaBunker"
+	},
+	"R-Defense-BaBaFlameTower": {
+		"iconID": "IMAGE_RES_DEFENCE",
+		"id": "R-Defense-BaBaFlameTower",
+		"msgName": "RES_PB_FL",
+		"name": "Scavenger Flame Tower",
+		"requiredResearch": [
+			"R-Wpn-Flamer01Mk1"
+		],
+		"researchPoints": 600,
+		"researchPower": 18,
+		"resultStructures": [
+			"A0BaBaFlameTower"
+		],
+		"statID": "A0BaBaFlameTower"
+	},
+	"R-Defense-BaBaCannonTower": {
+		"iconID": "IMAGE_RES_DEFENCE",
+		"id": "R-Defense-BaBaCannonTower",
+		"msgName": "RES_PB_LC",
+		"name": "Scavenger Cannon Tower",
+		"requiredResearch": [
+			"R-Wpn-Cannon1Mk1"
+		],
+		"researchPoints": 600,
+		"researchPower": 18,
+		"resultStructures": [
+			"A0CannonTower"
+		],
+		"statID": "A0CannonTower"
+	},
+	"R-Defense-BaBaMortarPit": {
+		"iconID": "IMAGE_RES_DEFENCE",
+		"id": "R-Defense-BaBaMortarPit",
+		"msgName": "RES_EMP_Mpit",
+		"name": "Scavenger Mortar Pit",
+		"requiredResearch": [
+			"R-Wpn-Mortar01Lt"
+		],
+		"researchPoints": 600,
+		"researchPower": 18,
+		"resultStructures": [
+			"A0BaBaMortarPit"
+		],
+		"statID": "A0BaBaMortarPit"
+	},
+	"R-Defense-BaBaRocketPit": {
+		"iconID": "IMAGE_RES_DEFENCE",
+		"id": "R-Defense-BaBaRocketPit",
+		"msgName": "RES_EMP_PODTOW",
+		"name": "Scavenger Rocket Pit",
+		"requiredResearch": [
+			"R-Wpn-Rocket05-MiniPod"
+		],
+		"researchPoints": 600,
+		"researchPower": 18,
+		"resultStructures": [
+			"A0BaBaRocketPit"
+		],
+		"statID": "A0BaBaRocketPit"
+	},
+	"R-Defense-BaBaRocketPitAT": {
+		"iconID": "IMAGE_RES_DEFENCE",
+		"id": "R-Defense-BaBaRocketPitAT",
+		"msgName": "RES_PB_ATR",
+		"name": "Scavenger AT-Rocket Pit",
+		"requiredResearch": [
+			"R-Wpn-Rocket01-LtAT"
+		],
+		"researchPoints": 900,
+		"researchPower": 28,
+		"resultStructures": [
+			"A0BaBaRocketPitAT"
+		],
+		"statID": "A0BaBaRocketPitAT"
 	}
 }
