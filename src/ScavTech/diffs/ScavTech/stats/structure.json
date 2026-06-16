@@ -1,0 +1,28 @@
+{
+	"A0BaBaFactory": {
+		"structureModel": [
+			"BLBRBFAC.PIE",
+			"BLBRBFAC2.PIE",
+			"BLBRBFAC2.PIE",
+			"BLBRBFAC3.PIE",
+			"BLBRBFAC3.PIE"
+		],
+		"userLimits": [
+			0,
+			5,
+			5
+		]
+	},
+	"A0BaBaPowerGenerator": {
+		"structureModel": [
+			"BLBRBGEN.PIE",
+			"BLBRBGEN2.PIE",
+			"BLBRBGEN2.PIE"
+		],
+		"userLimits": [
+			0,
+			10,
+			10
+		]
+	}
+}
