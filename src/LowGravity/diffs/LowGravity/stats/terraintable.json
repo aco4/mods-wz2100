@@ -1,0 +1,110 @@
+{
+	"sand": {
+		"speedFactor": {
+			"wheeled": 32767,
+			"tracked": 32767,
+			"legged": 32767,
+			"hover": 32767,
+			"half-tracked": 32767
+		}
+	},
+	"sandybrush": {
+		"speedFactor": {
+			"wheeled": 32767,
+			"tracked": 32767,
+			"legged": 32767,
+			"hover": 32767,
+			"half-tracked": 32767
+		}
+	},
+	"bakedearth": {
+		"speedFactor": {
+			"wheeled": 32767,
+			"tracked": 32767,
+			"legged": 32767,
+			"hover": 32767,
+			"half-tracked": 32767
+		}
+	},
+	"greenmud": {
+		"speedFactor": {
+			"wheeled": 32767,
+			"tracked": 32767,
+			"legged": 32767,
+			"hover": 32767,
+			"half-tracked": 32767
+		}
+	},
+	"redbrush": {
+		"speedFactor": {
+			"wheeled": 32767,
+			"tracked": 32767,
+			"legged": 32767,
+			"hover": 32767,
+			"half-tracked": 32767
+		}
+	},
+	"pinkrock": {
+		"speedFactor": {
+			"wheeled": 32767,
+			"tracked": 32767,
+			"legged": 32767,
+			"hover": 32767,
+			"half-tracked": 32767
+		}
+	},
+	"road": {
+		"speedFactor": {
+			"wheeled": 32767,
+			"tracked": 32767,
+			"legged": 32767,
+			"hover": 32767,
+			"half-tracked": 32767
+		}
+	},
+	"water": {
+		"speedFactor": {
+			"wheeled": 32767,
+			"tracked": 32767,
+			"legged": 32767,
+			"hover": 32767,
+			"half-tracked": 32767
+		}
+	},
+	"cliff_face": {
+		"speedFactor": {
+			"wheeled": 32767,
+			"tracked": 32767,
+			"legged": 32767,
+			"hover": 32767,
+			"half-tracked": 32767
+		}
+	},
+	"rubble": {
+		"speedFactor": {
+			"wheeled": 32767,
+			"tracked": 32767,
+			"legged": 32767,
+			"hover": 32767,
+			"half-tracked": 32767
+		}
+	},
+	"sheetice": {
+		"speedFactor": {
+			"wheeled": 32767,
+			"tracked": 32767,
+			"legged": 32767,
+			"hover": 32767,
+			"half-tracked": 32767
+		}
+	},
+	"slush": {
+		"speedFactor": {
+			"wheeled": 32767,
+			"tracked": 32767,
+			"legged": 32767,
+			"hover": 32767,
+			"half-tracked": 32767
+		}
+	}
+}

@@ -28,6 +28,7 @@ Campaign       |                                    | Multiple files      |4.5.5
 CampaignColor  | AI players get campaign color      | `init.js`           |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/CampaignColor)
 TeamColor      | Entire team is the same color      | `init.js`           |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/TeamColor)
 noTerrain      | Terrain does not slow units        | `terraintable.json` |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/noTerrain)
+LowGravity     | Units are fast and slide around    | Multiple files      |4.7.0      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/LowGravity)
 U-Walls        | Walls are unbreakable              | `structure.json`    |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/U-Walls)
 U-City         | City buildings are unbreakable     | `features.json`     |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/U-City)
 1FactoryLimit  | Maximum 1 factories                | `structurelimits.js`|4.6.2      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/1FactoryLimit)

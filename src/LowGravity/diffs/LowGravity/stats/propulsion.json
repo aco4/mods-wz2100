@@ -1,0 +1,42 @@
+{
+	"BaBaLegs": {
+		"speed": 1024,
+		"weight": 0
+	},
+	"BaBaProp": {
+		"speed": 1024,
+		"weight": 0
+	},
+	"CyborgLegs": {
+		"speed": 1024,
+		"weight": 0
+	},
+	"HalfTrack": {
+		"speed": 1024,
+		"weight": 0
+	},
+	"Helicopter": {
+		"speed": 1024,
+		"weight": 0
+	},
+	"Naval": {
+		"speed": 1024,
+		"weight": 0
+	},
+	"V-Tol": {
+		"speed": 1024,
+		"weight": 0
+	},
+	"hover01": {
+		"speed": 1024,
+		"weight": 0
+	},
+	"tracked01": {
+		"speed": 1024,
+		"weight": 0
+	},
+	"wheeled01": {
+		"speed": 1024,
+		"weight": 0
+	}
+}
