@@ -5,6 +5,7 @@ FullReveal     | Entire map is visible              | `init.js`           |4.5.5
 OilVision      | Oil derricks are always visible    | `init.js`           |4.6.1      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/OilVision)
 UrbanSky       | Improved Urban skybox              | texpages            |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/UrbanSky)
 BlackFog       | Fog is black                       | `init.js`           |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/BlackFog)
+DayNight       | Day Night cycle                    | `weather.js`        |4.7.0      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/DayNight)
 AA_start       | AA is researched for you           | `techlevel.js`      |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/AA_start)
 ScavTech       | Scavenger technology available     | Multiple files      |4.7.0      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/ScavTech)
 Mines          | New explosive mine structure       | `init.js`           |4.6.2      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/Mines)
