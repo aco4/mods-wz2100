@@ -98,10 +98,12 @@ U-City         | City buildings are unbreakable     | `features.json`     |4.5.5
 1. Start Warzone 2100
 2. Click `Options`
 3. Click `Open Configuration Directory` (bottom)
-4. Put the mod in `📁mods/4.6.2/autoload/`
+4. Put the mod in `📁mods/4.7.0/autoload/`
 5. Restart Warzone 2100
 
 # Compatibility
 Mods work together if they modify different files. For example:
 - NoReveal and maxPower are compatible (`setupgame.js` and `base.js`)
 - FullReveal and VTOLoff are not compatible (both modify `init.js`)
+
+If no files are listed, the mod is probably compatible with other mods
