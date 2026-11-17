@@ -7,7 +7,7 @@ UrbanSky       | Improved Urban skybox              | texpages            |4.5.5
 BlackFog       | Fog is black                       | `init.js`           |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/BlackFog)
 DayNight       | Day Night cycle                    | `weather.js`        |4.7.0      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/DayNight)
 AA_start       | AA is researched for you           | `techlevel.js`      |4.5.5      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/AA_start)
-StartWithTanks | 50% of trucks replaced with tanks  | `init.js`           |4.7.0      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/StartWithTanks)
+StartWithTanks | Start with some MG Viper Wheels    | `init.js`           |4.7.0      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/StartWithTanks)
 ScavTech       | Scavenger technology available     | Multiple files      |4.7.0      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/ScavTech)
 Mines          | New explosive mine structure       | `init.js`           |4.6.2      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/Mines)
 NuclearReactor | Power multiplier (needs cooling!)  | `init.js`           |4.6.2      | [⬇️](https://github.com/aco4/mods-wz2100/raw/main/files/NuclearReactor)
